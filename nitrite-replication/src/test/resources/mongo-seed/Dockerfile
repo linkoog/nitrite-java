@@ -1,4 +1,4 @@
-FROM mongo
+FROM mongo:7.0-jammy
 
 COPY appConfig.json /appConfig.json
 
