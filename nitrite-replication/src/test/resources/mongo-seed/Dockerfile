@@ -1,4 +1,4 @@
-FROM mongo
+FROM mongo:8.2.1
 
 COPY appConfig.json /appConfig.json
 
